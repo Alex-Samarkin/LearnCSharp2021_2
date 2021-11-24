@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut1", "Tut1\Tut1.csproj", "{C23AE36E-1556-4451-822A-B982826BE7C2}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut6", "Tut6\Tut6.csproj", "{10853AC6-F0FF-4EA1-B0AA-7470077B1D98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut7", "Tut7\Tut7.csproj", "{133C3E88-2F00-4D0A-8D30-6E0B2BA540C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tut8", "Tut8\Tut8.csproj", "{93C8614F-7742-4EAA-8175-198F8865D6FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{133C3E88-2F00-4D0A-8D30-6E0B2BA540C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{133C3E88-2F00-4D0A-8D30-6E0B2BA540C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{133C3E88-2F00-4D0A-8D30-6E0B2BA540C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C8614F-7742-4EAA-8175-198F8865D6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C8614F-7742-4EAA-8175-198F8865D6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C8614F-7742-4EAA-8175-198F8865D6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C8614F-7742-4EAA-8175-198F8865D6FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
