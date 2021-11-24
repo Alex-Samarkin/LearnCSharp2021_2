@@ -122,7 +122,17 @@ namespace Tut3
             res += sample[1];
             res += new string(sample[2], value);
             res += sample[3];
-            res += print_base ? $"{value}" : "";
+            res += print_head ? $"{value}" : "";
+
+            // или так
+            string res1 = "";
+
+            res1 += sample[0]+
+                    (print_base ? $"{value,6}" : "")+
+                    sample[1]+
+                    new string(sample[2], value)+
+                    sample[3]+
+                    (print_head ? $"{value}" : "");
 
             return res;
         }

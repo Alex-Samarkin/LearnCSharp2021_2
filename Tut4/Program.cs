@@ -23,8 +23,13 @@ namespace Tut4
             Console.WriteLine($"vs[1] {vs[1]}");
             
             /// добавляем элемент в хвост массива
-            vs.Append(vs[2]+1);
+            /// результат - НОВАЯ ПОСЛЕДОВАТЕЛЬНОСТЬ с очень необычными свойствами
+            /// ее НАДО переделать во что-нибудь привычное, например в массив ToArray()
+            var vs1 = vs.Append(vs[2]+1).ToArray();
+
+            // просмотрите в отладчике vs1 и vs 
             Console.WriteLine($"vs[1] {vs[1]} vs[2] {vs[2]}");
+            Console.WriteLine($"vs1[2] {vs1[2]} vs1[3] {vs1[3]}");
 
             Console.ReadLine();
 
@@ -40,6 +45,7 @@ namespace Tut4
 
             vs = new int[N]; // создаем массив заново
                              // Вопрос: что со старым массивом?
+                             // Вопрос: почему не Append или Add?
 
             /// заполняем массив случайными числами
             for (int i = 0; i < vs.Length; i++)
